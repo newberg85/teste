@@ -1,10 +1,12 @@
 import { useState } from "react";
+import Menu from "./componentes/Menu";
 
 function Home() {
     return (
         <div>
             <h2>Home</h2>
             <Contador />
+            <Menu />
         </div>
     )
 }
